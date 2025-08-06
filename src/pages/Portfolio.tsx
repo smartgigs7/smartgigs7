@@ -237,30 +237,9 @@ const Portfolio = () => {
                   {/* Project Examples */}
                   <div className="md:w-2/3 p-6 bg-secondary/30">
                     <h4 className="text-lg font-semibold text-foreground mb-4">Recent Projects</h4>
-                    {freelancer.projects && freelancer.projects.length > 0 ? (
-                      <div className="grid md:grid-cols-2 gap-4">
-                        {freelancer.projects.map((project, index) => (
-                          <div key={index} className="group cursor-pointer">
-                            <div className="relative overflow-hidden rounded-lg mb-3">
-                              <img
-                                src={project.image}
-                                alt={project.title}
-                                className="w-full h-32 object-cover transition-transform duration-300 group-hover:scale-105"
-                              />
-                              <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                                <ExternalLink className="w-6 h-6 text-white" />
-                              </div>
-                            </div>
-                            <h5 className="font-semibold text-foreground mb-1">{project.title}</h5>
-                            <p className="text-sm text-muted-foreground">{project.description}</p>
-                          </div>
-                        ))}
-                      </div>
-                    ) : (
-                      <div className="flex justify-center items-center py-12 h-64 w-full">
-                        <span className="text-2xl font-semibold text-muted-foreground text-center">No Projects With Us Yet</span>
-                      </div>
-                    )}
+                    <div className="flex justify-center items-center py-12 h-64 w-full">
+                      <span className="text-2xl font-semibold text-muted-foreground text-center">No Projects With Us Yet</span>
+                    </div>
                   </div>
                 </div>
               </Card>

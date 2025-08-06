@@ -8,9 +8,7 @@
     "build": "vite build",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "cross-env GIT_SSH_COMMAND=\"ssh -i C:/Users/nduli/.ssh/github_smartgigs7 -F /dev/null\" gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",

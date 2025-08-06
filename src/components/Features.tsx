@@ -26,7 +26,7 @@ const Features = () => {
     {
       icon: <Users className="w-8 h-8 text-primary" />,
       title: "Diverse Expertise",
-      description: "Access specialists across 50+ categories, from design and development to marketing and content creation."
+      description: "Access specialists across a wide range of categories, from design and development to marketing and content creation."
     },
     {
       icon: <Clock className="w-8 h-8 text-primary" />,

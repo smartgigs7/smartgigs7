@@ -3,36 +3,36 @@ import { Mail, Phone, MapPin, Twitter, Linkedin, Github } from "lucide-react"
 
 const Footer = () => {
   const footerSections = [
-    {
-      title: "Services",
-      links: [
-        { name: "Web Development", href: "#" },
-        { name: "Graphic Design", href: "#" },
-        { name: "Content Writing", href: "#" },
-        { name: "Digital Marketing", href: "#" },
-        { name: "Mobile Apps", href: "#" }
-      ]
-    },
+    // {
+    //   title: "Services",
+    //   links: [
+    //     { name: "Web Development", href: "#" },
+    //     { name: "Graphic Design", href: "#" },
+    //     { name: "Content Writing", href: "#" },
+    //     { name: "Digital Marketing", href: "#" },
+    //     { name: "Mobile Apps", href: "#" }
+    //   ]
+    // },
     {
       title: "Company",
       links: [
         { name: "About Us", href: "/about" },
-        { name: "Our Team", href: "#" },
-        { name: "Careers", href: "#" },
+        // { name: "Our Team", href: "#" },
+        // { name: "Careers", href: "#" },
         { name: "Press", href: "#" },
         { name: "Contact", href: "/#contact" }
       ]
     },
-    {
-      title: "Resources",
-      links: [
-        { name: "Blog", href: "#" },
-        { name: "Help Center", href: "#" },
-        { name: "Guides", href: "#" },
-        { name: "API Docs", href: "#" },
-        { name: "Status", href: "#" }
-      ]
-    }
+    // {
+    //   title: "Resources",
+    //   links: [
+    //     { name: "Blog", href: "#" },
+    //     { name: "Help Center", href: "#" },
+    //     { name: "Guides", href: "#" },
+    //     { name: "API Docs", href: "#" },
+    //     { name: "Status", href: "#" }
+    //   ]
+    // }
   ]
 
   return (
@@ -52,11 +52,11 @@ const Footer = () => {
               Connecting exceptional freelancers with ambitious projects. 
               Experience the future of professional services.
             </p>
-            <div className="flex space-x-4">
+            {/* <div className="flex space-x-4">
               <Twitter className="w-5 h-5 text-background/70 hover:text-background cursor-pointer transition-colors" />
               <Linkedin className="w-5 h-5 text-background/70 hover:text-background cursor-pointer transition-colors" />
               <Github className="w-5 h-5 text-background/70 hover:text-background cursor-pointer transition-colors" />
-            </div>
+            </div> */}
           </div>
 
           {/* Footer sections */}
@@ -85,19 +85,19 @@ const Footer = () => {
             <div className="flex flex-col md:flex-row md:space-x-8 space-y-2 md:space-y-0">
               <div className="flex items-center space-x-2 text-sm text-background/70">
                 <Mail className="w-4 h-4" />
-                <span>hello@smartgigs.com</span>
+                <span>smartgigs7@gmail.com</span>
               </div>
-              <div className="flex items-center space-x-2 text-sm text-background/70">
+              {/* <div className="flex items-center space-x-2 text-sm text-background/70">
                 <Phone className="w-4 h-4" />
                 <span>+1 (555) 123-4567</span>
-              </div>
+              </div> */}
               <div className="flex items-center space-x-2 text-sm text-background/70">
                 <MapPin className="w-4 h-4" />
-                <span>San Francisco, CA</span>
+                <span>Brisbane, QLD</span>
               </div>
             </div>
             <div className="text-sm text-background/70">
-              © 2024 SmartGigs. All rights reserved.
+              © 2025 SmartGigs. All rights reserved.
             </div>
           </div>
         </div>

@@ -1,4 +1,5 @@
 import Header from "@/components/Header"
+import { Link } from "react-router-dom"
 import Footer from "@/components/Footer"
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Target, Users, Award, Globe } from "lucide-react"
@@ -125,7 +126,8 @@ const About = () => {
         </div>
       </section>
 
-      {/* Team Section */}
+      {/*
+      Team Section
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-secondary/30">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
@@ -155,6 +157,7 @@ const About = () => {
           </div>
         </div>
       </section>
+      */}
 
       {/* CTA Section */}
       <section className="py-16 px-4 sm:px-6 lg:px-8">
@@ -167,13 +170,17 @@ const About = () => {
             we're here to help you succeed.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button variant="hero" size="xl" className="group">
-              Hire Freelancers
-              <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
-            </Button>
-            <Button variant="professional" size="xl">
-              Become a Freelancer
-            </Button>
+            <Link to="/#contact">
+              <Button variant="hero" size="xl" className="group">
+                Hire Freelancers
+                <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
+              </Button>
+            </Link>
+            <Link to="/#contact">
+              <Button variant="professional" size="xl">
+                Become a Freelancer
+              </Button>
+            </Link>
           </div>
         </div>
       </section>

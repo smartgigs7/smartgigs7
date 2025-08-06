@@ -21,15 +21,15 @@ const Index = () => {
             Ready to start your next project? We're here to help you find the perfect freelancer 
             or answer any questions you might have.
           </p>
-          <div className="grid md:grid-cols-3 gap-8 text-center">
+          <div className="grid md:grid-cols-1 gap-8 text-center">
             <div className="space-y-3">
               <div className="w-12 h-12 bg-gradient-primary rounded-full flex items-center justify-center mx-auto">
                 <Mail className="w-6 h-6 text-white" />
               </div>
               <h3 className="font-semibold text-foreground">Email Us</h3>
-              <p className="text-muted-foreground">hello@smartgigs.com</p>
+              <p className="text-muted-foreground">smartgigs7@gmail.com</p>
             </div>
-            <div className="space-y-3">
+            {/* <div className="space-y-3">
               <div className="w-12 h-12 bg-gradient-primary rounded-full flex items-center justify-center mx-auto">
                 <Phone className="w-6 h-6 text-white" />
               </div>
@@ -42,7 +42,7 @@ const Index = () => {
               </div>
               <h3 className="font-semibold text-foreground">Visit Us</h3>
               <p className="text-muted-foreground">San Francisco, CA</p>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

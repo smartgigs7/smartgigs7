@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button"
 import { Link, useLocation } from "react-router-dom"
 import { Menu, X } from "lucide-react"
 import { useState } from "react"
+import logo from "@/assets/logo.png"
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -20,11 +21,9 @@ const Header = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-sm">SG</span>
-            </div>
-            <span className="text-xl font-bold text-foreground">SmartGigs</span>
-          </Link>
+            <img src={logo} alt="SmartGigs Logo" className="w h-12 object-contain" />
+            {/* <span className="text-xl font-bold text-foreground">SmartGigs</span> */}
+        </Link>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
@@ -41,7 +40,7 @@ const Header = () => {
             ))}
           </div>
 
-          {/* CTA Buttons */}
+          {/* CTA Buttons
           <div className="hidden md:flex items-center space-x-4">
             <Button variant="ghost" size="sm">
               Sign In
@@ -49,7 +48,7 @@ const Header = () => {
             <Button variant="hero" size="sm">
               Get Started
             </Button>
-          </div>
+          </div> */}
 
           {/* Mobile menu button */}
           <div className="md:hidden">

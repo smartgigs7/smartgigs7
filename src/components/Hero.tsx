@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button"
+import { Link } from "react-router-dom"
 import { ArrowRight, Star, Users, Clock } from "lucide-react"
 import heroImage from "@/assets/hero-image.jpg"
 
@@ -24,30 +25,32 @@ const Hero = () => {
             {/* Stats */}
             <div className="flex flex-wrap gap-6 md:gap-8">
               <div className="flex items-center space-x-2">
-                <div className="flex items-center text-yellow-500">
+                {/* <div className="flex items-center text-yellow-500">
                   <Star className="w-5 h-5 fill-current" />
                   <Star className="w-5 h-5 fill-current" />
                   <Star className="w-5 h-5 fill-current" />
                   <Star className="w-5 h-5 fill-current" />
                   <Star className="w-5 h-5 fill-current" />
-                </div>
-                <span className="text-sm font-medium text-muted-foreground">4.9/5 rating</span>
+                </div> */}
+                {/* <span className="text-sm font-medium text-muted-foreground">4.9/5 rating</span> */}
               </div>
               <div className="flex items-center space-x-2">
                 <Clock className="w-5 h-5 text-primary" />
-                <span className="text-sm font-medium text-muted-foreground">48hr average delivery</span>
+                <span className="text-sm font-medium text-muted-foreground">48hr average response rate</span>
               </div>
             </div>
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button variant="hero" size="xl" className="group">
-                Browse Freelancers
-                <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
-              </Button>
-              <Button variant="professional" size="xl">
+              <Link to="/portfolio">
+                <Button variant="hero" size="xl" className="group">
+                  Browse Freelancers
+                  <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
+                </Button>
+              </Link>
+              {/* <Button variant="professional" size="xl">
                 View Portfolio
-              </Button>
+              </Button> */}
             </div>
           </div>
 

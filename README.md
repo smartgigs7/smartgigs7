@@ -1,3 +1,55 @@
+# SmartGigs7
+
+A modern freelance portfolio and showcase web app built with React, Vite, TypeScript, Tailwind CSS, and shadcn/ui.
+
+## Features
+- Responsive, elegant UI for showcasing top freelancers and their portfolios
+- Built with React, Vite, and TypeScript for fast performance
+- Styled with Tailwind CSS and shadcn/ui components
+- Supabase integration ready for backend and authentication
+- Easy deployment to GitHub Pages, Vercel, Netlify, or Cloudflare Pages
+
+## Getting Started
+
+### Prerequisites
+- Node.js (v18 or newer recommended)
+- npm
+
+### Installation
+```sh
+npm install
+```
+
+### Development
+```sh
+npm run dev
+```
+
+### Production Build
+```sh
+npm run build
+```
+
+### Deploy to GitHub Pages
+```sh
+npm run deploy
+```
+
+## Project Structure
+- `src/` — Main source code (components, pages, assets)
+- `public/` — Static files (favicon, logo, etc.)
+- `dist/` — Production build output
+
+## Customization
+- Update freelancer data in `src/pages/Portfolio.tsx`
+- Update branding and images in `src/assets/` and `public/`
+
+## License
+MIT
+
+---
+
+Built and maintained by the SmartGigs7 team.
 # Welcome to your Lovable project
 
 ## Project info

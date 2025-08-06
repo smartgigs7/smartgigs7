@@ -34,10 +34,6 @@ const Hero = () => {
                 <span className="text-sm font-medium text-muted-foreground">4.9/5 rating</span>
               </div>
               <div className="flex items-center space-x-2">
-                <Users className="w-5 h-5 text-primary" />
-                <span className="text-sm font-medium text-muted-foreground">500+ projects delivered</span>
-              </div>
-              <div className="flex items-center space-x-2">
                 <Clock className="w-5 h-5 text-primary" />
                 <span className="text-sm font-medium text-muted-foreground">48hr average delivery</span>
               </div>
@@ -52,17 +48,6 @@ const Hero = () => {
               <Button variant="professional" size="xl">
                 View Portfolio
               </Button>
-            </div>
-
-            {/* Trust indicators */}
-            <div className="pt-4">
-              <p className="text-sm text-muted-foreground mb-3">Trusted by industry leaders</p>
-              <div className="flex items-center space-x-8 opacity-60">
-                <div className="text-lg font-bold text-foreground">Microsoft</div>
-                <div className="text-lg font-bold text-foreground">Shopify</div>
-                <div className="text-lg font-bold text-foreground">Stripe</div>
-                <div className="text-lg font-bold text-foreground">Airbnb</div>
-              </div>
             </div>
           </div>
 

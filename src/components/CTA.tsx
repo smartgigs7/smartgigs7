@@ -1,3 +1,4 @@
+// Trigger redeploy: Aug 7, 2025
 import { Button } from "@/components/ui/button"
 import { ArrowRight, CheckCircle } from "lucide-react"
 
